@@ -6,4 +6,5 @@
   <ImportAction name='include' value='{plugin_root}Permissions.xml'/>
   <ImportAction name='include' value='{plugin_root}ServiceDefinition.xml'/>
   <ImportAction name='include' value='{plugin_root}Policy.xml'/>
+  <ImportAction name='include' value='{plugin_root}TaskDefinition.xml'/>
 </sailpoint>

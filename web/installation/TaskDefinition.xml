@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE TaskDefinition PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<TaskDefinition executor="sailpoint.plugin.task.PluginTaskExecutor" name="Hello Task" progressInterval="5000" progressMode="String" type="Generic">
+    <Description>
+        Example plugin task
+    </Description>
+    <Attributes>
+        <Map>
+            <entry key='pluginUniqueName' value='HelloWorld'/>
+            <entry key='implementationClass' value='sailpoint.plugin.helloworld.task.HelloTaskExecutor'/>
+        </Map>
+    </Attributes>
+    <Signature>
+        <Inputs>
+            <Argument name="hi" type="string">
+                <Prompt>hi</Prompt>
+            </Argument>
+        </Inputs>
+        <Returns>
+            <Argument name="total" type="int">
+                <Prompt>total</Prompt>
+            </Argument>
+        </Returns>
+    </Signature>
+</TaskDefinition>
