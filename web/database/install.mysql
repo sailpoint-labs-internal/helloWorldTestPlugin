@@ -1,5 +1,5 @@
 select 1;
 
-CREATE  TABLE `new_table` (
+CREATE  TABLE `helloworld_table` (
   `idnew_table` INT NOT NULL ,
-  PRIMARY KEY (`idnew_table`) );
+  PRIMARY KEY (`idhelloworld_table`) );
