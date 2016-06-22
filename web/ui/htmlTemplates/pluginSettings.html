@@ -1,4 +1,4 @@
-<div>
+<div ng-controller="CustomSettingsCtrl">
     <h4>Plugin Options</h4>
 
     <h6>Within this settings template, you have the ability to use 'pluginName' and 'settings' objects.</h6>
@@ -18,8 +18,15 @@
                 <div>
                     <input type="text" ng-model="settings.Message" ng-value="settings.Message"/>
                 </div>
-                by putting <code>&lt;input type=&quot;text&quot; ng-model=&quot;settings.Message&quot; ng-value=&quot;settings.Message&quot; /&gt;</code> in my html.
+                by putting <code>&lt;input type=&quot;text&quot; ng-model=&quot;settings.Message&quot; ng-value=&quot;settings.Message&quot;
+                /&gt;</code> in my html.
             </span>
         </div>
+    </div>
+    <div>
+        This is an example of using a custom settings controller (See CustomSettingsCtrl.js)
+    </div>
+    <div>
+        {{getCustomMessage()}}
     </div>
 </div>
