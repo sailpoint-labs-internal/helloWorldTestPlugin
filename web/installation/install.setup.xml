@@ -1,11 +1,11 @@
 <!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
 <sailpoint>
-    <ImportAction name='include' value='{plugin_root}Configuration.xml'/>
-    <ImportAction name='include' value='{plugin_root}QuickLinkOptions.xml'/>
-    <ImportAction name='include' value='{plugin_root}QuickLink.xml'/>
-    <ImportAction name='include' value='{plugin_root}Permissions.xml'/>
-    <ImportAction name='include' value='{plugin_root}ServiceDefinition.xml'/>
-  <ImportAction name='include' value='{plugin_root}Policy.xml'/>
-  <ImportAction name='include' value='{plugin_root}TaskDefinition.xml'/>
-  <ImportAction name='include' value='{plugin_root}Widget.xml'/>
+    <ImportAction name='include' value='{plugin_root}/installation/Configuration.xml'/>
+    <ImportAction name='include' value='{plugin_root}/installation/QuickLinkOptions.xml'/>
+    <ImportAction name='include' value='{plugin_root}/installation/QuickLink.xml'/>
+    <ImportAction name='include' value='{plugin_root}/installation/Permissions.xml'/>
+    <ImportAction name='include' value='{plugin_root}/installation/ServiceDefinition.xml'/>
+  <ImportAction name='include' value='{plugin_root}/installation/Policy.xml'/>
+  <ImportAction name='include' value='{plugin_root}/installation/TaskDefinition.xml'/>
+  <ImportAction name='include' value='{plugin_root}/installation/Widget.xml'/>
 </sailpoint>
